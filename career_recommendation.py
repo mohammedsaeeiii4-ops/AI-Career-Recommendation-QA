@@ -13,7 +13,7 @@ def recommend_career(gpa, grades):
     average_score = total_score / len(grades)
 
     # IF-ELSE: final recommendation decision
-    if gpa >= 3.5 and average_score >= 2.5:
+    if gpa >= 3.2 and average_score >= 2.5:
         return ["AI Engineer", "Data Scientist", "ML Engineer"]
     else:
         return ["IT Support", "QA Tester", "Business Analyst"]
